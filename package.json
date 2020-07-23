@@ -1,0 +1,17 @@
+{
+  "name": "shb1proxy",
+  "version": "1.0.0",
+  "description": "Proxy por autenticación por Cookie de Service Layer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "José Ureña",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "requestify": "^0.2.5"
+  }
+}
