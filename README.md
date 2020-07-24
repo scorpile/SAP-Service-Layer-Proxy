@@ -21,7 +21,7 @@ You need to modify the app.js file:
 ### Usage
 After the proxy is running you should see a console log about listening on the port you specified, and the successful connection to SAP Service Layer.
 
-At this point you can test it normally with Postman or any other app you prefer.
+At this point you can test it normally with Postman or any other app you prefer.  Remember to use "Basic authentication" and set the ANYUSERNAME:ANYPASSWORD you used.
 
 If you run the node on your local computer, you can try it with http://127.0.0.1:3000/ and you should get the SAP Metadata.
 
