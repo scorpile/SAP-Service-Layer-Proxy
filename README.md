@@ -13,8 +13,8 @@ You need to modify the app.js file:
 - You can change the PORT from 3000 to any port you want.
 - Change the YOURSERVER string with your server's name or address (ie: sapserver.com or 10.1.1.1 or servername:50000).
 - Change the variable counter from 20 to any amount of minutes you want the proxy to refresh the session with SL.
-- Change ANYUSERNAME:ANYPASSWORD to any user:password you want to use.
-- Change the credentials from manager, YOURPASSWORD, YOURDB to whatever credentials your SAP Consultant gives.
+- Change ANYUSERNAME:ANYPASSWORD to any user:password you want to use.  Those are from your application to the proxy.
+- Change the credentials from manager, YOURPASSWORD, YOURDB to whatever credentials your SAP Consultant gives.  Those are for connecting to SAP Service Layer.
 - Run with "node app.js" for testing.  Later you can make it run as a service, it's up to you the method you choose for that.
 
 ### Usage
