@@ -8,7 +8,7 @@ A Proxy written on NodeJS that simplifies the cookie authentication needed for S
 - I used express, body-parser and requestify, but did a little modification to requestify to change PUT to PATCH, becasue SL uses PATCH when you want to delete records.
 - It will allow you to use Basic Authentication to connect to SL.  Internally it will handle all SL Cookie Authentication every 20 minutes (or whatever time you set).
 - It currently works through HTTP.  You will see some //TODO comments in the code because i have plans to change it to HTTPS.
-- It allows you to use "?id=:recordId" instead of the "(':recordId')" that Service Layer uses, but it wont limit you if you want to do it.
+- It allows you to use "?id=:recordId" instead of the "(':recordId')" when "updating/deleting/getting specific record" that Service Layer uses, but it wont limit you if you want to do it.
 
 ### Setup
 You need to modify the app.js file:
