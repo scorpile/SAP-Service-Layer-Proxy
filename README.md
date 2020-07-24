@@ -7,6 +7,7 @@ A Proxy written on NodeJS that simplifies the cookie authentication needed for S
 - It is designed for SAP SL but you can modify it to suit your needs.
 - I used express, body-parser and requestify, but did a little modification to requestify to change PUT to PATCH, becasue SL uses PATCH when you want to delete records.
 - It will allow you to use Basic Authentication to connect to SL.  Internally it will handle all SL Cookie Authentication.
+- It currently works through HTTP.  You will see some //TODO comments in the code because i have plans to change it to HTTPS.
 
 ### Setup
 You need to modify the app.js file:
