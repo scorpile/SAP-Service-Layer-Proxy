@@ -23,7 +23,7 @@ app.use(function(req, res, next) {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-let data = 'fcdsmanager:pass123manuel';
+let data = 'ANYUSERNAME:ANYPASSWORD';
 let buff = new Buffer(data);
 let base64data = buff.toString('base64');
 
