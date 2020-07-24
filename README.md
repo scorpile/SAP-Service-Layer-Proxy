@@ -1,4 +1,4 @@
-# SAPServiceLayerProxy
+# SAP Service Layer Proxy
 A Proxy written on NodeJS that simplifies the cookie authentication needed for SAP Service Layer, and the parameters to operations like GET/PATCH/DELETE passed as part of the URL (Service Layer wants like /ProfitCenter('Test1') but you maybe want to do /ProfitCenter?id=Test1).
 
 ### Overview
