@@ -12,6 +12,7 @@ A Proxy written on NodeJS that simplifies the cookie authentication needed for S
 
 ### Setup
 First download project from:  https://github.com/scorpile/SAP-Service-Layer-Proxy
+
 You need to modify the app.js file:
 - You can change the PORT from 3000 to any port you want.
 - Change the YOURSERVER string with your server's name or address (ie: sapserver.com or 10.1.1.1 or servername:50000).
