@@ -11,6 +11,7 @@ A Proxy written on NodeJS that simplifies the cookie authentication needed for S
 - It allows you to use "?id=:recordId" instead of the "(':recordId')" when "updating/deleting/getting specific record" that Service Layer uses, but it wont limit you if you want to do it.
 
 ### Setup
+First download project from:  https://github.com/scorpile/SAP-Service-Layer-Proxy
 You need to modify the app.js file:
 - You can change the PORT from 3000 to any port you want.
 - Change the YOURSERVER string with your server's name or address (ie: sapserver.com or 10.1.1.1 or servername:50000).
