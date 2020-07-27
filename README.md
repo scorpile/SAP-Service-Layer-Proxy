@@ -2,7 +2,7 @@
 A Proxy written on NodeJS that simplifies the cookie authentication needed for SAP Service Layer, and the parameters to operations like GET/PATCH/DELETE passed as part of the URL (Service Layer wants like /ProfitCenter('Test1') but you maybe want to do /ProfitCenter?id=Test1).
 
 ### Overview
-- It is coded in `[NodeJS](https://nodejs.org/en/)`.
+- It is coded in [`NodeJS`](https://nodejs.org/en/).
 - It allows the integration between SAP Service Layer (B1, Hana, etc) and Scribe Online (this is my case), but it should work with any App that is able to work with REST.
 - It is designed for SAP SL but you can modify it to suit your needs.
 - I used express, body-parser and requestify, but did a little modification to requestify to change PUT to PATCH, becasue SL uses PATCH when you want to delete records.
